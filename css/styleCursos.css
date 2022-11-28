@@ -1,0 +1,170 @@
+/* utilidades*/
+
+.seccion {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.contenedor {
+    max-width: 120rem;
+    margin: 0 auto;
+    margin-top: 2rem;
+}
+
+.fw-300 {
+    font-weight: 300;
+}
+
+.center-texto {
+    text-align: center;
+}
+
+.d-block {
+    display: block!important;
+}
+
+
+/* Informacion */
+
+.centrar-texto {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.fw-300 {
+    font-weight: 400;
+    font-size: 300%;
+}
+
+.espacio {
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+.espacio2 {
+    padding-bottom: 2%;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+
+/* Pie */
+
+.site-footer {
+    background-color: #211f20;
+    margin: 0;
+}
+
+.contenedor-footer {
+    padding: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.copy {
+    color: #ffffff;
+    margin: 0;
+}
+
+
+/** Navegacion**/
+
+.navegacion a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1rem;
+    margin-right: 2rem;
+}
+
+.navegacion a:hover {
+    color: #71b100;
+}
+
+.navegacion a:last-of-type {
+    margin: 0;
+}
+
+
+/* cursos */
+
+.container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 40px 0;
+}
+
+.container .card {
+    position: relative;
+    width: 300px;
+    height: 400px;
+    margin: 20px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .card .content {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    height: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+    flex-direction: column;
+    backdrop-filter: blur(15px);
+    box-shadow: 0 -10px 10px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    transition: bottom 0.5s;
+}
+
+.container .card:hover .content {
+    bottom: 0px;
+}
+
+.container .card .content .contentBx h3 {
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 500;
+    font-size: 18px;
+    text-align: center;
+    margin: 20px 0 15px;
+    line-height: 1.1em;
+    transition: 0.5s;
+    opacity: 0;
+    transform: translateY(-20px);
+}
+
+.container .card:hover .content .contentBx h3 {
+    opacity: 1;
+    transform: translateY(0px);
+}
+
+.container .card:hover .content .contentBx h3 span {
+    font-size: 12px;
+    font-weight: 300;
+    text-transform: initial;
+}
+
+.container .card .content .sci {
+    list-style: none;
+    margin: 0 10px;
+    transform: translateY(40px);
+    transition: 0.5s;
+    opacity: 0;
+}
+
+.container .card:hover .content .sci {
+    transform: translateY(0px);
+    opacity: 1;
+}

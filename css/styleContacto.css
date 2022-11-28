@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* utilidades*/
+
+.seccion {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.contenedor {
+    max-width: 120rem;
+    margin: 0 auto;
+    margin-top: 2rem;
+}
+
+.fw-300 {
+    font-weight: 300;
+}
+
+.center-texto {
+    text-align: center;
+}
+
+.d-block {
+    display: block!important;
+}
+
+
+/* Informacion */
+
+.seccion-inferior .blog {
+    flex-basis: 60%;
+}
+
+.seccion-inferior .testimoniales {
+    flex-basis: calc(40% -2rem);
+}
+
+.entrada-blog {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+
+.entrada-blog:nth-last-of-type() {
+    margin-bottom: 0;
+}
+
+.entrada-blog {
+    flex-basis: 53%;
+}
+
+.entrada-blog .texto-entrada {
+    flex-basis: calc (60% -3rem);
+}
+
+.centrar-texto {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.fw-300 {
+    font-weight: 400;
+    font-size: 300%;
+}
+
+.entrada-blog .texto-entrada {
+    flex-basis: calc (60% -3rem);
+}
+
+.separacion {
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.separacion2 {
+    padding-bottom: 2%;
+}
+
+.centrar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.izquierda {
+    padding-right: 1%;
+}
+
+
+/* Pie */
+
+.site-footer {
+    background-color: #211f20;
+    margin: 0;
+}
+
+.contenedor-footer {
+    padding: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.copy {
+    color: #ffffff;
+    margin: 0;
+}
+
+
+/** Navegacion**/
+
+.navegacion a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1rem;
+    margin-right: 2rem;
+}
+
+.navegacion a:hover {
+    color: #71b100;
+}
+
+.navegacion a:last-of-type {
+    margin: 0;
+}
+
+
+/* cuerpo de informacion (Metodo) */
